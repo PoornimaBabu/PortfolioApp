@@ -28,8 +28,8 @@ async function seed() {
         await mongoose.connect(MONGODB_URI);
         console.log('Connected to MongoDB');
 
-        const email = 'poornibn24@gmail.com';
-        const password = 'Happy@123';
+        const email = 'test@gmail.com';
+        const password = 'test@3';
 
         // Hash password
         const hashedPassword = await bcrypt.hash(password, 10);
